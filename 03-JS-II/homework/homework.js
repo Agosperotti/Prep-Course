@@ -5,7 +5,17 @@ function obtenerMayor(x, y) {
   // Devuelve el número más grande
   // Si son iguales, devuelve cualquiera de los dos
   // Tu código:
+
+  if (x < y){
+    return y;
+  }else{
+  
+    return x;
+  }
+
 }
+
+  
 
 function mayoriaDeEdad(edad) {
   //Determinar si la persona según su edad puede ingresar a un evento.
@@ -38,6 +48,19 @@ function colors(color) {
   //En caso que el color recibido sea "orange", devuleve --> "This is orange"
   //Caso default: devuelve --> "Color not found"
   //Usar el statement Switch.
+
+  switch (color) {
+    case "blue":
+    return "this is blue"
+    case "red":
+    return "this is red"
+    case "green":
+    return "this is green"
+    case "orange":
+    return "this is orange"
+    default:
+      return "color not found"
+}
 }
 
 function esDiezOCinco(numero) {
